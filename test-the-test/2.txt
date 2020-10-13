@@ -1,0 +1,25 @@
+intance: cedar dream
+
+
+
+attributes:
+height(12)
+width (8)
+colors_available ["natural", "white wash", "grey wash"]
+thickness (1.04)
+frame_name (Cedar Dream)
+is_available (true)
+frame_material ("cedar")
+frame_price (30)
+
+
+methods:
+
+add_to_cart (frame_name plus colors_available plus is_available)
+            (cedar dream, natural, true )
+list_frame_size (height plus width plus thickness)
+                (12,8,1.04)
+cart_total (frame_price plus frame_price)
+          (30)
+frame_description (list_frame_size plus frame_material plus frame_price frame_name)
+                  (cedar dream, 30, natural, 12,8,1.04)

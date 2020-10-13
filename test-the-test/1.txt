@@ -1,0 +1,19 @@
+class picture_frame:
+
+attributes:
+height(integer)
+width (integer)
+colors_available (array)
+thickness (float)
+frame_name (string)
+is_available (boolean)
+frame_material (string)
+frame_price (integer)
+
+
+methods:
+
+add_to_cart (frame_name plus colors_available plus is_available)
+list_frame_size (height plus width plus thickness)
+cart_total (frame_price plus frame_price)
+frame_description (list_frame_size plus frame_material plus frame_price)
